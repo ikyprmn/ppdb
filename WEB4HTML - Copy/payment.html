@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SMK TELKOM JAKARTA</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/tlkm.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .btn-sudah-bayar {
+      background-color: #28a745; /* Warna hijau */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn-sudah-bayar:hover {
+      background-color: #218838; /* Warna hijau lebih gelap saat hover */
+    }
+
+    .responsive-img {
+      width: 300px; /* Atur lebar sesuai kebutuhan */
+      height: auto; /* Tinggi otomatis untuk menjaga rasio aspek */
+      max-width: 100%; /* Responsif: tidak lebih lebar dari kontainer */
+    }
+  </style>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Telkom School</h1>
+        <span>.</span>
+      </a>
+      <a class="btn-getstarted" href="index.html">Home</a>
+
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        Telkom Payment
+      </div>
+      <div class="card-body">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1024px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="Telkom" class="responsive-img">
+        <p>No. Order: 220363006</p>
+        <p>QRIS</p>
+        <p>Scan QRIS melalui aplikasi yang didukung</p>
+        <p>Berlaku untuk satu kali pembayaran .</p>
+        <p>Waktu Pembayaran: <span id="timer">01:00</span></p>
+        <a href="sucpay.html" class="btn-sudah-bayar">Sudah Bayar</a> <!-- Tombol sudah bayar -->
+      </div>
+      <div class="card-footer">
+        <p>&copy; 2023 Telkom Payment Gateway</p>
+      </div>
+    </div>
+    </div>
+    
+    <script src="assets/js/timer.js"></script>
+    </body>
+    </html>
+  

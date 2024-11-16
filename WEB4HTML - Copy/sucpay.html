@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pembayaran Berhasil - SMK TELKOM JAKARTA</title>
+  <meta name="description" content="Konfirmasi pembayaran berhasil">
+  <meta name="keywords" content="Pembayaran, Berhasil, SMK TELKOM JAKARTA">
+
+  <!-- Favicons -->
+  <link href="assets/img/tlkm.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .btn-back {
+      background-color: #dc0404df;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn-back:hover {
+      background-color: #ff0000;
+    }
+
+    h1 {
+      color: #28a745; /* Warna hijau untuk sukses */
+    }
+
+    .checkmark {
+      width: 100px;
+      height: 100px;
+      border: 10px solid #28a745;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto;
+      box-sizing: border-box;
+      animation: scale 0.5s ease-in-out forwards;
+    }
+
+    .checkmark::after {
+      content: '';
+      position: absolute;
+      top: -0px;
+      left: 30px;
+      width: 30px;
+      height: 60px;
+      border: solid #28a745;
+      border-width: 0 10px 10px 0;
+      transform: rotate(45deg);
+      opacity: 0;
+      animation: draw 0.5s ease-in-out forwards 0.5s;
+    }
+
+    @keyframes scale {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes draw {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="checkmark"></div>
+    <h1>Pembayaran Berhasil!</h1>
+    <p>Terima kasih! Pembayaran Anda telah diproses dengan sukses.</p>
+    <p>No. Order: <strong>220363006</strong></p>
+    <p>Kami akan mengirimkan konfirmasi melalui email Anda.</p>
+    <a href="index.html" class="btn-back">Kembali ke Beranda</a>
+  </div>
+
+</body>
+</html>
